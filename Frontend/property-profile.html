@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- Montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700,800" rel="stylesheet">
+    <!-- chivo -->
+    <link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">  
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- pefect-scroll -->
+    <link rel="stylesheet" href="css/perfect-scrollbar.css">
+    <!-- custom-style-sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- modal-get-qoute-starts-here -->
+    <div class="modal fade" id="get_qoute" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>get quote</h2>
+      </div>
+      <div class="modal-body">
+        <div class="dropdown-container">
+        <button type="button" id="dropdown" class="btn-tr">Select the type of finance</button>
+        <div class="custom-dropdown">
+           <a href="#">Perspective High Level Quote</a>
+           <a href="#">Purchase Finance for Live Deal</a>
+           <a href="#">Refinance</a>
+        </div> 
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal-get-qoute-ends-here -->
+
+    <!-- modal-buy-starts-here -->
+<div class="modal fade" id="buy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="h-2">buy</h2>
+      </div>
+      <div class="modal-body">
+        <div class="step-one">
+       <button class="btn-cmn" id="forward">create counter offer</button>
+       <button class="btn-cmn">accept conditions & process</button>
+      </div>
+
+      <div class="step-two hide">
+           <div class="txarea">
+     <textarea class="form-custom" placeholder="type your offer"></textarea>
+     <h4>Drag and drop your files anywhere to upload</h4>
+     <form class="md-form" action="#">
+    <div class="file-field">
+        <div class="btn btn-primary">
+            <i class="fas fa-paperclip"></i>
+            <input type="file" multiple>
+        </div>
+        <div class="file-path-wrapper">
+            <input class="file-path validate" type="text" placeholder="Upload one or more files">
+        </div>
+    </div>
+</form>
+     <button class="btn-cmn ">send</button>
+   </div>
+  </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<!-- modal-ends-here -->
+
+
+    <!-- header-starts-here -->
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="images/logo.png" alt="foresight_logo">
+            </div>
+            <div class="tools">
+                <span class="dropdown">
+                  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="images/icon-search.png" alt="icon_search_foresight">
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <div class="form-group">
+                      <input type="text" placeholder="Search..." class="form-control">
+                    </div>
+                  </div>
+                </span>
+                <span>
+                    <img src="images/icon-comment.png" alt="icon_comment_foresight">
+                </span>
+                <span>
+                    <img src="images/icon-alert.png" alt="icon_alert_foresight">
+                </span>
+            </div>
+            <div class="link-block">
+                <a href="#">Sale</a>
+                <a href="#">Rentals</a>
+            </div>
+        </div>
+    </header>
+    <!-- header-ends-here -->
+
+    <!-- hero-starts-here -->
+    <div class="hero">
+    </div>
+    <div class="container">
+    <div class="row">
+    	<!-- col-md-8-starts-here -->
+    	<div class="col-md-8 main-sec">
+    	<div class="top-sec">
+    	<span class="custom-badge">
+    		for sale
+    	</span>
+    	<h5>8250 Sqft, 2 Floors</h5>
+    	<h2>SAROVAR LOFT OFFICE SPACE</h2>
+    	<div class="user-details">
+    		<div class="user-pro-pic">
+    			<img class="img-fluid" src="images/avatar.jpg" alt="foresight_user_pic">
+    		</div>
+    		<div class="user-name">
+    			<span>Regan Fletcher</span>
+    			<p>@reganfletcher</p>
+    		</div>
+    	</div>
+    </div>
+    <div class="icon-group">
+    <div class="icon">
+    	<img class="img-fluid" src="images/icon-sofa.jpg" alt="foresight_icons">
+    	<h4>1 Guest Room</h4>
+    </div>	
+        <div class="icon">
+    	<img class="img-fluid" src="images/icon-bath.jpg" alt="foresight_icons">
+    	<h4>1 Wash Room</h4>
+    </div>	
+        <div class="icon">
+    	<img class="img-fluid" src="images/icon-calender.jpg" alt="foresight_icons">
+    	<h4>1 Pantry</h4>
+    </div>	
+        <div class="icon">
+    	<img class="img-fluid" src="images/icon-note.jpg" alt="foresight_icons">
+    	<h4>3 Year Old</h4>
+    </div>	
+    </div>
+    <section>
+    	<p>Exceptional Torrey Hills home located at the end of a cul-de-sac with expansive 
+panoramic views of nature. This lot and location is unique with only 1 neighbor and 
+open space all around. The seller has completely remodeled inside and out in a 
+contemporary style. You approach to a fruit tree garden leading to a gated 
+courtyard professionally landscaped with low water usage and easy-care plants. In 
+award winning school districts, near shopping, entertainment, dining, beaches and 
+easy freeway access. </p>
+<p>This lot and location is unique with only 1 neighbor and open space all around. The seller has completely remodeled inside and out in a contemporary style. You approach to a fruit tree garden leading to a gated courtyard professionally landscaped with low water usage and easy-care plants. 
+</p>
+    </section>
+<div class="collapse-container">
+	<div class="collapse-well">
+	<h4>Extra charges</h4>
+	<div class="co-icon" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	<i class="fas fa-plus"></i>
+	</div>
+</div>
+<div id="collapseOne" class="collapse">
+	    <div class="row">
+	    	<div class="col-sm-6">
+	    		<ul>
+	    			<li>Cleaning Fee : <b>$50</b></li>
+	    			<li>Security Deposit : <b>$2000</b></li>
+	    			<li>Weekly Discount : <b>10%</b></li>
+	    		</ul>
+	    	</div>
+	    	<div class="col-sm-6">
+	    		<ul>
+	    			<li>Monthly Discount : <b>15%</b></li>
+	    			<li>Weekend Price : <b>$199 / night</b></li>
+	    		</ul>		
+	    	</div>
+	    </div>
+	    <div class="well">
+	    	<h5>Always communicate through</h5>
+	    	<p>To protect your payment, never transfer money or communicate outside of the our website or app.</p>
+	    </div>
+</div>
+</div>
+
+
+<div class="collapse-container">
+	<div class="collapse-well">
+	<h4>Facts & Features</h4>
+	<div class="co-icon" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+	<i class="fas fa-plus"></i>
+	</div>
+</div>
+<div id="collapseTwo" class="collapse">
+	    <div class="row">
+	    	<div class="col-sm-6">
+	    		<ul>
+	    			<li>Free Detector</li>
+	    			<li>Remote Door Lock</li>
+	    			<li>Cable TV</li>
+	    		</ul>
+	    	</div>
+	    	<div class="col-sm-6">
+	    		<ul>
+	    			<li>Free Toilet Paper></li>
+	    			<li>Modern Kitchen</li>
+	    			<li>Convinient Location</li>
+	    		</ul>		
+	    	</div>
+	    </div>
+</div>
+</div>
+
+
+<div class="collapse-container">
+	<div class="collapse-well">
+	<h4>location info</h4>
+	<div class="co-icon" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+	<i class="fas fa-plus"></i>
+	</div>
+</div>
+<div id="collapseThree" class="collapse">
+          <div class="map-block">
+          	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31434.45277418905!2d76.27904960227873!3d9.991513042837882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d13ee1347b1%3A0x89c9267d1aeeaac4!2sKaloor%2C+Kochi%2C+Kerala!5e0!3m2!1sen!2sin!4v1529478612224" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<!-- col-md-8-ends -here -->
+
+<div class="col-md-4 dis-pad">
+	<div class="price">
+		<div class="text-wrapper">
+		<h2>$1,240,000</h2>
+		<h5>list price</h5>
+	</div>
+	</div>
+	<!-- custom-panel-starts-here -->
+	<div class="custom-panel">
+		<div class="panel-header">
+			<h4>document attached</h4>
+		</div>
+		<div class="panel-content">
+			<ul class="document">
+				<li><a href="#">Brochure</a><i class="fas fa-check-circle"></i></li>
+				<li><a href="#">Rent Roll</a><i class="fas fa-check-circle"></i></li>
+				<li><a href="#">Operating Statement</a><i class="fas fa-check-circle"></i></li>
+			</ul>
+			<div class="btn-row">
+			<button type="button" data-toggle="modal" data-target="#buy" class="btn-cmn">Buy</button>
+			<button class="btn-cmn">Analyse</button>
+			<button type="button" data-toggle="modal" data-target="#get_qoute" class="btn-cmn">get qoute</button>
+		</div>
+		</div>
+	</div>
+	<!-- custom-panel-ends-here -->
+
+		<!-- custom-panel-starts-here -->
+	<div class="custom-panel">
+		<div class="panel-header">
+			<h4>terms & conditions</h4>
+		</div>
+		<div class="panel-content tc" id="container">
+		<ul class="tc-text">
+			<li><span>Price Amount: </span>$1,240,000</li>
+			<li><span>Deposit: </span>20%</li>
+			<li><span>Closing Date: </span>23/04/2018</li>
+			<li><span>Purchasing Conditions: </span>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</li>
+		</ul>
+		</div>
+	</div>
+	<!-- custom-panel-ends-here -->
+
+		<!-- custom-panel-starts-here -->
+	<div class="custom-panel">
+		<div class="panel-header">
+			<h4>agent & special clause</h4>
+		</div>
+		<div class="panel-content">
+    	<div class="user-details">
+    		<div class="user-pro-pic">
+    			<img class="img-fluid" src="images/avatar.jpg" alt="foresight_user_pic">
+    		</div>
+    		<div class="user-name">
+    			<span>Regan Fletcher</span>
+    			<p>@reganfletcher</p>
+    		</div>
+    	</div>
+		</div>
+	</div>
+	<!-- custom-panel-ends-here -->
+
+</div>
+</div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/perfect-scrollbar.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

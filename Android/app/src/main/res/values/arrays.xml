@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ld_activityScreenTitles">
+        <item>DASHBOARD</item>
+        <item>PORTFOLIO</item>
+        <item>LISTING</item>
+        <item>LOAN REQUESTS</item>
+        <item>MARKET REQUESTS</item>
+        <item>SETTINGS</item>
+        <item>HELP</item>
+        <item />
+        <item>LOG OUT --</item>
+    </string-array>
+</resources>

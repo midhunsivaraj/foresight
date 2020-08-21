@@ -1,0 +1,15 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+	.wrapper{
+		flex-wrap: wrap;
+		height: auto !important;
+		padding-left: 10px;
+		padding-right: 10px;
+		.logo{
+			flex-basis: 50%;
+			img{
+				width: 100%;
+			}
+		}
+	}
+}

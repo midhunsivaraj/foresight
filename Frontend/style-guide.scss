@@ -1,0 +1,178 @@
+.full-width{
+	width: 100% !important;
+}
+.no-padding{
+	padding: 0 !important;
+}
+.btn-primary{
+  background-color: $primary-color;
+  box-shadow: 0px 10px 20px 0px rgba(81, 81, 209, 0.5);
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  padding: 15px 35px;
+  cursor: pointer;
+  &:hover,&:focus,&:visited{
+  	background-color: $hover-color;
+  	color: white;
+  }
+}
+.btn-default{
+  background-color: $bold-text;
+  box-shadow: 0px 10px 20px 0px rgba(81, 81, 209, 0.5);
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  padding: 15px 35px;
+  cursor: pointer;
+  &:hover,&:focus,&:visited{
+  	background-color: $hover-color;
+  	color: white;
+  }
+}
+.sm-btn{
+	font-size: 10px;
+	padding: 10px 25px;
+}
+.lg-btn{
+    padding: 18px 45px;
+    font-size: 15px;
+}
+
+	.card{
+	border: none;
+	margin-bottom: 25px;
+	padding: 5px;
+	transition: all 0.3s ease-in-out;
+	&:hover{
+		border-radius: 5px;
+		box-shadow: 0px 10px 20px 0px rgba(81,81,209,0.2);
+		.card-body{
+			transform: translateX(20px)
+		}
+	}
+	img.card.img-top{
+	border-radius: 0 !important;
+	}
+		.sticker{
+	background-color: $border-color;
+	width: 100%;
+	height: 40px;
+	margin-top: -40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	h5{
+		font-size: 10px;
+		font-weight: 600;
+		color: black;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		span{
+			color: $primary-color;
+		}
+	}
+	}
+	.card-body{
+		padding: 15px 0;
+		transition: all 0.3s ease-in-out;
+	.card-title{
+	font-size: 20px;
+	font-weight: 600;
+	color: black;
+	}
+	.btn-cmn-sm{
+		width: 120px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		float: left;
+		&:hover{
+			color: white;
+			text-decoration: none;
+		}
+	}
+	}
+	}
+
+
+	.micro-cube-top{
+		position: relative !important;
+		&:after{
+	content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    background-color: #3d3bee;
+		}
+	}
+
+.micro-cube-left{
+position: relative !important;
+&:after{
+content: '';
+display: block;
+position: absolute;
+top: 50%;
+left: 0;
+margin-left: -4px;
+margin-top: -4px;
+width: 8px;
+height: 8px;
+background-color: #3d3bee;
+}
+}
+
+.heading{
+	border-bottom: 1px solid $border-color;
+	h1,h2,h3{
+	padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    position: relative;
+    font-weight: 600;
+    text-transform: uppercase;
+    &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    width: 50px;
+    height: 8px;
+    background-color: $primary-color;
+    }
+	}
+}
+
+.btn-round{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: $primary-color;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: none;
+	box-shadow: $shadow;
+	cursor: pointer;
+	margin: 25px auto;
+	color: white;
+	&:hover,&:focus{
+		background-color: $hover-color;
+	}
+}

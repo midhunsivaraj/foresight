@@ -1,0 +1,12 @@
+@media (max-width: 575.98px) {
+  .wrapper {
+    flex-wrap: wrap;
+    height: auto !important;
+    padding-left: 10px;
+    padding-right: 10px; }
+    .wrapper .logo {
+      flex-basis: 50%; }
+      .wrapper .logo img {
+        width: 100%; } }
+
+/*# sourceMappingURL=media-query.css.map */

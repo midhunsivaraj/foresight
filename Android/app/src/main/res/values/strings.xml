@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Foresight</string>
+    <string-array name="login_roles">
+        <item>INVESTOR</item>
+        <item>DEALER</item>
+        <item>OWNER</item>
+        <item>USER</item>
+        <item>ADMINISTRATOR</item>
+    </string-array>
+</resources>
